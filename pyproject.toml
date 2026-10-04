@@ -3,3 +3,6 @@ name = "shaft-order-analysis"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+shaft-order-analysis = "shaft_order_analysis.cli:main"
